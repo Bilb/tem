@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { LightboxGallery } from './Lightbox';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <LightboxGallery selectedIndex={0} />
         </a>
       </header>
     </div>
